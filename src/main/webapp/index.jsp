@@ -7,6 +7,14 @@
 <img src="download.jpeg">
 
 <h2>Hi, All From now onwords you need to work more stay focused & work hard/</h2>
+    
+    {
+  weatherByPoint(request: { lat: 52.37125, lon: 4.89388 }) {
+    now {
+      temperature
+    }
+  }
+}
 
 <p>This Instance is running on <strong><%= System.getenv("BOXFUSE_PLATFORM_NAME") %>
 </strong> and has the id <strong><%= System.getenv("BOXFUSE_INSTANCE_ID") %>
